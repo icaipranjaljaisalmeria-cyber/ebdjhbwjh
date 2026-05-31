@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pranjal Jaisalmeria | Resume</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fb;
+    color:#222;
+}
+
+/* NAVBAR */
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#0d2b52;
+    padding:15px 30px;
+    z-index:1000;
+    box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#87cefa;
+}
+
+/* LAYOUT */
+
+.container{
+    display:flex;
+    margin-top:70px;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+    width:300px;
+    min-height:100vh;
+    background:#0d2b52;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+    position:sticky;
+    top:70px;
+}
+
+.profile-img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background:#fff;
+    margin:auto;
+    overflow:hidden;
+    border:4px solid white;
+}
+
+.profile-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.sidebar h1{
+    margin-top:20px;
+    font-size:28px;
+}
+
+.sidebar h3{
+    margin-top:10px;
+    font-weight:400;
+    color:#d0d8e8;
+}
+
+.contact{
+    margin-top:30px;
+}
+
+.contact a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    margin:12px 0;
+    transition:.3s;
+}
+
+.contact a:hover{
+    color:#87cefa;
+}
+
+/* MAIN CONTENT */
+
+.main{
+    flex:1;
+    padding:40px;
+}
+
+section{
+    background:white;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.08);
+}
+
+section h2{
+    color:#0d2b52;
+    margin-bottom:15px;
+    border-left:5px solid #0d2b52;
+    padding-left:10px;
+}
+
+.timeline-item{
+    margin-bottom:20px;
+}
+
+.timeline-item h3{
+    color:#0d2b52;
+}
+
+.timeline-item p{
+    margin-top:5px;
+}
+
+/* SKILLS */
+
+.filter-buttons{
+    margin-bottom:20px;
+}
+
+.filter-buttons button{
+    background:#0d2b52;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    margin-right:10px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.filter-buttons button:hover{
+    background:#17447d;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#e7eef8;
+    color:#0d2b52;
+    padding:10px 15px;
+    border-radius:20px;
+    font-weight:600;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#666;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.container{
+    flex-direction:column;
+}
+
+.sidebar{
+    width:100%;
+    position:relative;
+    top:0;
+    min-height:auto;
+}
+
+.main{
+    padding:20px;
+}
+}
+</style>
+</head>
+<body>
+
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+</ul>
+</nav>
+
+<div class="container">
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+<div class="profile-img">
+<img src="profile.jpg" alt="Profile Photo">
+</div>
+
+<h1>Pranjal Jaisalmeria</h1>
+<h3>CA Intermediate Student</h3>
+
+<div class="contact">
+<a href="tel:+919413867505">📞 9413867505</a>
+<a href="mailto:prjaisalmeria@gmail.com">✉️ prjaisalmeria@gmail.com</a>
+<a href="#">🔗 LinkedIn Profile</a>
+</div>
+
+</div>
+
+<!-- MAIN -->
+
+<div class="main">
+
+<section id="about">
+<h2>Professional Summary</h2>
+
+<p>
+Detail-oriented and analytical CA Intermediate student with strong knowledge of Accounting,
+Auditing, Taxation, Financial Reporting, GST Compliance and Regulatory Frameworks.
+Proficient in MS Excel, Tally Prime and Financial Reporting Tools. Seeking opportunities in
+Accounting, Finance and Taxation to contribute technical expertise and business value.
+</p>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+
+<div class="timeline-item">
+<h3>CA Intermediate (Pursuing)</h3>
+<p>Institute of Chartered Accountants of India (ICAI)</p>
+</div>
+
+<div class="timeline-item">
+<h3>B.Com (Pursuing)</h3>
+<p>Onkarmal Somani College of Commerce</p>
+</div>
+
+<div class="timeline-item">
+<h3>CA Foundation</h3>
+<p>ICAI | 2025</p>
+</div>
+
+<div class="timeline-item">
+<h3>Class XII</h3>
+<p>Patanjali Rishikul Prayagraj (CBSE) – 78%</p>
+</div>
+</section>
+
+<section id="experience">
+<h2>Work Experience</h2>
+
+<div class="timeline-item">
+<h3>Articleship / Internship</h3>
+<p>
+Add your CA Articleship, Internship or Professional Experience here.
+Include responsibilities, achievements and software handled.
+</p>
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="filter-buttons">
+<button onclick="filterSkills('all')">All</button>
+<button onclick="filterSkills('advanced')">Advanced</button>
+<button onclick="filterSkills('intermediate')">Intermediate</button>
+</div>
+
+<div class="skills">
+
+<div class="skill advanced">MS Excel</div>
+<div class="skill advanced">Tally Prime</div>
+<div class="skill advanced">GST Compliance</div>
+<div class="skill advanced">Financial Reporting</div>
+
+<div class="skill intermediate">Accounting</div>
+<div class="skill intermediate">Auditing</div>
+<div class="skill intermediate">Income Tax</div>
+<div class="skill intermediate">Financial Analysis</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="timeline-item">
+<h3>GST Reconciliation Dashboard</h3>
+<p>
+Created Excel-based GST reconciliation and compliance monitoring dashboard
+using advanced formulas and reporting techniques.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>Financial Statement Analysis</h3>
+<p>
+Performed ratio analysis and interpretation of financial statements for
+decision-making and performance evaluation.
+</p>
+</div>
+
+</section>
+
+<footer>
+© 2026 Pranjal Jaisalmeria | CA Intermediate Student
+</footer>
+
+</div>
+
+</div>
+
+<script>
+
+function filterSkills(level){
+
+const skills=document.querySelectorAll('.skill');
+
+skills.forEach(skill=>{
+
+if(level==='all'){
+skill.style.display='inline-block';
+}
+else{
+if(skill.classList.contains(level)){
+skill.style.display='inline-block';
+}
+else{
+skill.style.display='none';
+}
+}
+
+});
+
+}
+
+</script>
+
+</body>
+</html>
